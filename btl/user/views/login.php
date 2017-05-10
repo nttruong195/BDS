@@ -84,9 +84,9 @@
                 $("#TaiKhoan_error").text(" Kiếm tra lại tài khoản hoặc mật khẩu");
             }else {
 
-                $_SESSION['MaTaiKhoan']= data.MaTaiKhoan;
-                $_SESSION['TenTaiKhoan']= data.TenTaiKhoan;
-                $_SESSION['ChucVu']= data.ChucVu;
+                // $_SESSION['MaTaiKhoan']= data.MaTaiKhoan;
+                // $_SESSION['TenTaiKhoan']= data.TenTaiKhoan;
+                // $_SESSION['ChucVu']= data.ChucVu;
                 window.location.href = 'index.php?c=thongke&a=thongke';
             }
 
