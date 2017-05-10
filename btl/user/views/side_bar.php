@@ -57,7 +57,7 @@
                     <ul class="uk-navbar-nav user_actions">
                         <li><a href="#" id="main_search_btn" class="user_action_icon"><i class="material-icons md-24 md-light">&#xE8B6;</i></a></li>
                         <li data-uk-dropdown="{mode:'click'}">
-                            <a href="#" class="user_action_image">oclhh</a>
+                            <a href="#" class="user_action_image"><?php $_SESSION['TenTaiKhoan']?></a>
                             <div class="uk-dropdown uk-dropdown-small uk-dropdown-flip">
                                 <ul class="uk-nav js-uk-prevent">
                                     <li><a href="">Tài khoản</a></li>
